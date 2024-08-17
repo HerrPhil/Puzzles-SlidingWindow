@@ -1,0 +1,191 @@
+Hello Sliding Window Solution
+
+for right index 0
+
+the input at right index is zero
+
+increment numOfZeros to 1
+
+the maximum number of consecutive 1's is maxxx = 0, or right (0) - left (0) + 1 = 1
+
+for right index 1
+
+the input at right index is zero
+
+increment numOfZeros to 2
+
+the maximum number of consecutive 1's is maxxx = 1, or right (1) - left (0) + 1 = 2
+
+for right index 2
+
+the maximum number of consecutive 1's is maxxx = 2, or right (2) - left (0) + 1 = 3
+
+for right index 3
+
+the maximum number of consecutive 1's is maxxx = 3, or right (3) - left (0) + 1 = 4
+
+for right index 4
+
+the input at right index is zero
+
+increment numOfZeros to 3
+
+the maximum number of consecutive 1's is maxxx = 4, or right (4) - left (0) + 1 = 5
+
+for right index 5
+
+the input at right index is zero
+
+increment numOfZeros to 4
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 0
+
+the input at left index is zero
+
+decrement numOfZeros to 3
+
+increment left index to 1
+
+the maximum number of consecutive 1's is maxxx = 5, or right (5) - left (1) + 1 = 5
+
+for right index 6
+
+the maximum number of consecutive 1's is maxxx = 5, or right (6) - left (1) + 1 = 6
+
+for right index 7
+
+the maximum number of consecutive 1's is maxxx = 6, or right (7) - left (1) + 1 = 7
+
+for right index 8
+
+the maximum number of consecutive 1's is maxxx = 7, or right (8) - left (1) + 1 = 8
+
+for right index 9
+
+the input at right index is zero
+
+increment numOfZeros to 4
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 1
+
+the input at left index is zero
+
+decrement numOfZeros to 3
+
+increment left index to 2
+
+the maximum number of consecutive 1's is maxxx = 8, or right (9) - left (2) + 1 = 8
+
+for right index 10
+
+the maximum number of consecutive 1's is maxxx = 8, or right (10) - left (2) + 1 = 9
+
+for right index 11
+
+the maximum number of consecutive 1's is maxxx = 9, or right (11) - left (2) + 1 = 10
+
+for right index 12
+
+the input at right index is zero
+
+increment numOfZeros to 4
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 2
+
+increment left index to 3
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 3
+
+increment left index to 4
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 4
+
+the input at left index is zero
+
+decrement numOfZeros to 3
+
+increment left index to 5
+
+the maximum number of consecutive 1's is maxxx = 10, or right (12) - left (5) + 1 = 8
+
+for right index 13
+
+the input at right index is zero
+
+increment numOfZeros to 4
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 5
+
+the input at left index is zero
+
+decrement numOfZeros to 3
+
+increment left index to 6
+
+the maximum number of consecutive 1's is maxxx = 10, or right (13) - left (6) + 1 = 8
+
+for right index 14
+
+the input at right index is zero
+
+increment numOfZeros to 4
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 6
+
+increment left index to 7
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 7
+
+increment left index to 8
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 8
+
+increment left index to 9
+
+while the numOfZeros = 4 is greater than k = 3
+
+left index 9
+
+the input at left index is zero
+
+decrement numOfZeros to 3
+
+increment left index to 10
+
+the maximum number of consecutive 1's is maxxx = 10, or right (14) - left (10) + 1 = 5
+
+for right index 15
+
+the maximum number of consecutive 1's is maxxx = 10, or right (15) - left (10) + 1 = 6
+
+for right index 16
+
+the maximum number of consecutive 1's is maxxx = 10, or right (16) - left (10) + 1 = 7
+
+for right index 17
+
+the maximum number of consecutive 1's is maxxx = 10, or right (17) - left (10) + 1 = 8
+
+for right index 18
+
+the maximum number of consecutive 1's is maxxx = 10, or right (18) - left (10) + 1 = 9
+
+the maximum number of consecutive 1's when at most 3 0's can be flipped is 10

@@ -1,0 +1,101 @@
+Hello Sliding Window Solution
+
+for right index 0
+
+the maximum number of consecutive 1's is maxxx = 0, or right (0) - left (0) + 1 = 1
+
+for right index 1
+
+the maximum number of consecutive 1's is maxxx = 1, or right (1) - left (0) + 1 = 2
+
+for right index 2
+
+the maximum number of consecutive 1's is maxxx = 2, or right (2) - left (0) + 1 = 3
+
+for right index 3
+
+the input at right index is zero
+
+increment numOfZeros to 1
+
+the maximum number of consecutive 1's is maxxx = 3, or right (3) - left (0) + 1 = 4
+
+for right index 4
+
+the input at right index is zero
+
+increment numOfZeros to 2
+
+the maximum number of consecutive 1's is maxxx = 4, or right (4) - left (0) + 1 = 5
+
+for right index 5
+
+the input at right index is zero
+
+increment numOfZeros to 3
+
+while the numOfZeros = 3 is greater than k = 2
+
+left index 0
+
+increment left index to 1
+
+while the numOfZeros = 3 is greater than k = 2
+
+left index 1
+
+increment left index to 2
+
+while the numOfZeros = 3 is greater than k = 2
+
+left index 2
+
+increment left index to 3
+
+while the numOfZeros = 3 is greater than k = 2
+
+left index 3
+
+the input at left index is zero
+
+decrement numOfZeros to 2
+
+increment left index to 4
+
+the maximum number of consecutive 1's is maxxx = 5, or right (5) - left (4) + 1 = 2
+
+for right index 6
+
+the maximum number of consecutive 1's is maxxx = 5, or right (6) - left (4) + 1 = 3
+
+for right index 7
+
+the maximum number of consecutive 1's is maxxx = 5, or right (7) - left (4) + 1 = 4
+
+for right index 8
+
+the maximum number of consecutive 1's is maxxx = 5, or right (8) - left (4) + 1 = 5
+
+for right index 9
+
+the maximum number of consecutive 1's is maxxx = 5, or right (9) - left (4) + 1 = 6
+
+for right index 10
+
+the input at right index is zero
+
+increment numOfZeros to 3
+
+while the numOfZeros = 3 is greater than k = 2
+
+left index 4
+
+the input at left index is zero
+
+decrement numOfZeros to 2
+
+increment left index to 5
+
+the maximum number of consecutive 1's is maxxx = 6, or right (10) - left (5) + 1 = 6
+
+the maximum number of consecutive 1's when at most 2 0's can be flipped is 6
