@@ -44,5 +44,5 @@ It is straight-forward.
 
 However, without it, I would have fallen into the brute force trap, to solve the lesson task.
 
-Its performance is O(n). We like this.
+Its performance is `O(n)`. We like this.
 
