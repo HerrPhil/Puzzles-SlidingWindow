@@ -24,6 +24,18 @@ Bolded numbers were flipped from `0` to `1`.
 
 The longest subarray is from index `5` to index `10`, inclusive.
 
+Example 2:
+
+Input: `nums` = [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1] and `k` = `3`
+
+Expect Output: `10`
+
+Explanation: `nums` = [0, 0, 1, 1, **1**, **1**, 1, 1, 1, **1**, 1, 1, 0, 0, 0, 1, 1, 1, 1]
+
+Bolded numbers were flipped from `0` to `1`.
+
+The longest subarray is from index `2` to index `11`, inclusive.
+
 ## Observations
 
 The sliding window algorithm is new to me.
